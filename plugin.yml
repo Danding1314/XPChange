@@ -1,0 +1,21 @@
+name: XPChange
+author: sdsd16
+main: sdt\Main
+api: [3.0.0]
+version: 1.0.0
+description: SDT - XPChange => Token(附魔點數)
+
+commands:
+ xpchange:
+  description: "將XP兌換成附魔點數"
+  permission: sdt.command.player
+ setxo:
+  description: "設置玩家XP為1000"
+  permission: sdt.command.op
+
+permissions:
+ sdt.command.player:
+  default: true
+ sdt.command.op:
+  default: op
+
